@@ -33,7 +33,12 @@ setup(
     """,
     install_requires=["click"],
     extras_require={
-        "test": ["pytest"]
+        "test": [
+            "openpyxl",  # Required to read .xlsx files
+            "pytest",
+            "rich",
+            "xlrd",  # Required to read .xls files
+        ]
     },
     python_requires=">=3.7",
 )
