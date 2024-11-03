@@ -8,4 +8,5 @@ venv
 *.egg-info
 .DS_Store
 
-*.xls
+# folder with local financial data
+data/

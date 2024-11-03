@@ -1,5 +1,5 @@
 from click.testing import CliRunner
-from ynab.cli import cli
+from ynabkit.cli import cli
 
 
 def test_version():

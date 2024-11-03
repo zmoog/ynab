@@ -5,7 +5,7 @@
 [![Tests](https://github.com/zmoog/ynab/workflows/Test/badge.svg)](https://github.com/zmoog/ynab/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/zmoog/ynab/blob/master/LICENSE)
 
-CLI tool to support data import and export from YNAB
+YNAB Kit is a CLI tool to support data import and export from YNAB. It provides tools to convert data from Fineco and Satispay export files to YNAB CSV format.
 
 ## Installation
 

@@ -13,23 +13,23 @@ def get_long_description():
 
 
 setup(
-    name="ynab",
+    name="ynabkit",
     description="CLI tool to support data import and export from YNAB",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Maurizio Branca",
-    url="https://github.com/zmoog/ynab",
+    url="https://github.com/zmoog/ynabkit",
     project_urls={
-        "Issues": "https://github.com/zmoog/ynab/issues",
-        "CI": "https://github.com/zmoog/ynab/actions",
-        "Changelog": "https://github.com/zmoog/ynab/releases",
+        "Issues": "https://github.com/zmoog/ynabkit/issues",
+        "CI": "https://github.com/zmoog/ynabkit/actions",
+        "Changelog": "https://github.com/zmoog/ynabkit/releases",
     },
     license="Apache License, Version 2.0",
     version=VERSION,
-    packages=["ynab"],
+    packages=["ynabkit"],
     entry_points="""
         [console_scripts]
-        ynab=ynab.cli:cli
+        ynabkit=ynabkit.cli:cli
     """,
     install_requires=["click"],
     extras_require={

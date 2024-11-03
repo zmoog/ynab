@@ -3,7 +3,7 @@ import datetime
 
 
 @dataclasses.dataclass
-class Transaction:
+class CreditCardTransaction:
     owner: str
     card_number: str
     transaction_date: datetime.datetime
